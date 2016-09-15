@@ -12,6 +12,6 @@
     "url": "https://github.com/SAFAD/Moshi/issues"
   },
   "devDependencies": {
-    "vue": "^0.3.0",
+    "vue": "^0.3.0"
   }
 }
