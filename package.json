@@ -1,0 +1,17 @@
+{
+  "name": "qqswot",
+  "description": "A simple SWOT website built on VueJS",
+  "version": "0.1.0",
+  "author": "Sadaoui Abderrahim",
+  "repository": "https://github.com/SAFAD/QQSwot",
+  "license": "SEE LICENSE IN LICENSE",
+  "contributors": [
+    "Sadaoui Abderrahim <a.sadaoui@outlook.com> (https://github.com/SAFAD)"
+  ],
+  "bugs": {
+    "url": "https://github.com/SAFAD/Moshi/issues"
+  },
+  "devDependencies": {
+    "vue": "^0.3.0",
+  },
+}
