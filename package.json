@@ -9,9 +9,9 @@
     "Sadaoui Abderrahim <a.sadaoui@outlook.com> (https://github.com/SAFAD)"
   ],
   "bugs": {
-    "url": "https://github.com/SAFAD/Moshi/issues"
+    "url": "https://github.com/SAFAD/QQSwot/issues"
   },
-  "devDependencies": {
-    "vue": "^0.3.0"
+  "dependencies": {
+    "vue": "*"
   }
 }
