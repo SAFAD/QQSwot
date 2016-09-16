@@ -6,7 +6,43 @@
   <link rel="stylesheet" href="stylesheet.css" type="text/css">
   </head>
   <body>
+    <h1>QQSwot</h1>
+    <div id="main">
+      <div class="row">
+        <div class="column 50" id="strengths">
+          <h2>Strengths</h2>
+          <qqinput></qqinput>
+        </div>
+        <div class="column 50" id="weaknesses">
+          <h2>Weaknesses</h2>
+          <qqinput></qqinput>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column 50" id="opportunities">
+          <h2>Opportunities</h2>
+          <qqinput></qqinput>
+        </div>
+        <div class="column 50" id="threats">
+          <h2>Threats</h2>
+          <qqinput></qqinput>
+        </div>
+      </div>
+    </div>
 
+    <template id="QQInput-template">
+      <div id="QQInput">
+        <input v-model="newInput" v-on:keyup.enter="addInput">
+        <ul>
+          <li v-for="input in inputs">
+            <span>{{ input.text }}</span>
+            <button v-on:click="removeInput($index)">X</button>
+          </li>
+        </ul>
+      </div>
+    </template>
+
+  <script src="https://unpkg.com/vue@1.0.26/dist/vue.min.js" type="text/javascript"></script>
   <script src="index.js" type="text/javascript"></script>
   </body>
 </html>

@@ -1,0 +1,15 @@
+body{
+  background-color: #2C3E50;
+}
+#main{
+  margin: 0 auto;
+  width: 800px;
+  background-color: #ECF0F1;
+}
+.row{
+  display: flex;
+  width:100%;
+}
+.column{
+  width: 50%;
+}
